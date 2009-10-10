@@ -1,0 +1,11 @@
+DxfToSdf
+Copyright (c) 1993,2009  Peter Heinrich
+
+This tool converts AutoCAD-format 3D models (stored in .DXF files) into Shape
+Definitions for use by RSpace, a 3D rendering engine developed for the Sega CD
+by Rhett Anderson and Randy Thompson at Dynamix.
+
+Dynamix only published one game using the system, Stellar Fire:
+   
+   http://www.mobygames.com/game/stellar-fire
+   http://www.youtube.com/watch?v=Xj4hcYK2S1Q

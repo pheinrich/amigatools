@@ -1,0 +1,21 @@
+Amiga Tools
+Copyright (c) 1990,1991,1992,1992,2009  Peter Heinrich
+
+Really really really old tools written for the Amiga, more instructive as a 
+reminder of things past than genuinely useful these days.  They include:
+
+
+   UnStuff  - Decompresses Macintosh .sit files
+
+   DxfToSdf - Converts 3D models in AutoCAD standard format (.DXF) into Shape
+              Definitions (.SDF), a proprietary format used by games for the
+              Sega Genesis console
+
+   hunk     - Displays the hunk structure of AmigaDOS executable files
+
+   hunkhack - Adds 'strings'-like text to runtime-self-decompressing
+              AmigaDOS executable files, and prevents the orginal compressor,
+              Implode, from recognizing the result (to foil nefarious un-
+              Imploding and subsequent reverse engineering)
+
+   crlf     - Translates between IBM, Mac, and Amiga EOL markers
