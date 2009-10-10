@@ -1,16 +1,27 @@
  /*************************************************************************
  *
  *  UnStuff
- *  © 1990,1992  Peter Heinrich
+ *  Copyright (c) 1990,1992,2009  Peter Heinrich
  *
- *  expand.c
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the GNU General Public License
+ *  as published by the Free Software Foundation; either version 2
+ *  of the License, or (at your option) any later version.
  *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Boston, MA  02110-1301, USA.
+ *
+ *************************************************************************
  *  The work-horse module of the program, this file contains all of the
  *  decompression code.  StuffIt uses four methods of file compression:
  *  none, run-length encoding, Lempel-Ziv-Welch, and Huffman encoding.
  *  All four methods are handled here.
- *
- * $Log$
  *************************************************************************/
 
 

@@ -1,19 +1,26 @@
- /**********************************************************
+ /*************************************************************************
  *
- *    hunk.c
- *    © 9/3/91  Peter Heinrich
+ *  hunk
+ *  Copyright (c) 1991,2009  Peter Heinrich
  *
- *    This program identifies the hunk structure of any
- *    AmigaDOS executable or object file (but not libraries).
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the GNU General Public License
+ *  as published by the Free Software Foundation; either version 2
+ *  of the License, or (at your option) any later version.
  *
- * $Log:	hunk.c,v $
- * Revision 0.52  91/10/01  22:44:45  Peter
- * Corrected two small typos in output text.
- * 
- * Revision 0.5  91/09/03  10:47:50  Peter
- * Created
- * 
- **********************************************************/
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Boston, MA  02110-1301, USA.
+ *
+ *************************************************************************
+ *  This program identifies the hunk structure of any AmigaDOS executable
+ *  or object file (but not libraries).
+ *************************************************************************/
  
  
 

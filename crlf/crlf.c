@@ -1,30 +1,34 @@
- /*********************************************************
+ /*************************************************************************
  *
- *    CrLf.c
- *    © 1991, Peter Heinrich
+ *  crlf
+ *  Copyright (c) 1991,2009  Peter Heinrich
  *
- *    This program converts between Amiga, Macintosh, and
- *    IBM format text files, at least as far as end-of-line
- *    markers go.  When converting to IBM format, a CTRL-'Z'
- *    is added to the end of the file.  This same CTRL-'Z'
- *    is stripped out if converting to the other formats.
- *    Nothing special is done with 8-bit characters; upper
- *    ASCII is passed unaltered, so graphics and foreign
- *    characters may need to be changed by hand.
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the GNU General Public License
+ *  as published by the Free Software Foundation; either version 2
+ *  of the License, or (at your option) any later version.
  *
- * $Log:	crlf.c,v $
- * Revision 0.52  91/09/24  19:36:00  Peter
- * Added support for backup files (-b option)
- * Now adds CTRL-'Z' to end of file when converting to IBM, and strips
- * it when converting to Amiga or Mac
- * Now maintains a list of names of files already processed, so we
- * don't do one twice; also keeps us from doing backup files created
- * by the program itself
- * 
- * Revision 0.5  91/09/03  11:01:36  Peter
- * Created
- * 
- *********************************************************/
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 51 Franklin Street, Boston, MA  02110-1301, USA.
+ *
+ *************************************************************************
+ *  This program converts between Amiga, Macintosh, and IBM format text
+ *  files, at least as far as end-of-line markers go.  When converting to
+ *  IBM format, a CTRL-'Z' is added to the end of the file.  This same
+ *  CTRL-'Z' is stripped out if converting to the other formats.  Nothing
+ *  special is done with 8-bit characters; upper ASCII is passed un-
+ *  altered, so graphics and foreign characters may need to be changed by
+ *  hand.  This short module handles output to the screen.  Various bits
+ *  of info are deposited there, such as archived file names, sizes, com-
+ *  pression ratios, etc.  Error messages, when they're necessary (God
+ *  forbid) are handled here, also.
+ *************************************************************************/
 
 
 
